@@ -10,7 +10,7 @@ const app = express();
 app.use(express.json());
 
 // Conexión a MongoDB
-mongoose.connect("mongodb+srv://nico:nico1709@cluster0.zoqicb3.mongodb.net/ApiRest")
+mongoose.connect("mongodb+srv://...")
     .then(() => console.log("✅ MongoDB conectado"))
     .catch(err => console.error("❌ Error MongoDB:", err));
 
@@ -23,3 +23,4 @@ app.use("/api/media", mediaRoutes);
 
 const PORT = 4000;
 app.listen(PORT, () => console.log(`🚀 Servidor corriendo en http://localhost:${PORT}`));
+
