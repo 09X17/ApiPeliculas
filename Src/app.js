@@ -141,7 +141,8 @@ app.use((err, req, res, next) => {
 // =====================
 const PORT = 4000;
 app.listen(PORT, () => {
-  console.log(`🚀 Servidor corriendo en http://localhost:${PORT}`);
-  console.log(`📊 Panel de estado: http://localhost:${PORT}/api/status`);
-  console.log(`📚 Documentación: http://localhost:${PORT}/api`);
+  console.log(`🚀 Servidor corriendo en el puerto ${PORT}`);
+  console.log(`📊 Panel de estado: /api/status`);
+  console.log(`📚 Documentación: /api`);
 });
+
