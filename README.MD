@@ -11,7 +11,7 @@ npm install
 node src/app.js
 ```
 
-El servidor corre en: `http://localhost:4000`
+El servidor corre en: `https://apipeliculas-6end.onrender.com`
 
 ## 📋 Endpoints
 
@@ -69,3 +69,4 @@ El servidor corre en: `http://localhost:4000`
 ---
 **Desarrollado por Nicolás Campillo**  
 Universidad Digital de Antioquia
+
