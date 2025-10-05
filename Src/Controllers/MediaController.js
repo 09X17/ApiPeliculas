@@ -1,4 +1,8 @@
 import Media from "../Models/Media.js";
+import Genero from "../Models/Genero.js";
+import Director from "../Models/Director.js";
+import Productora from "../Models/Productora.js";
+import Tipo from "../Models/Tipo.js";
 
 // 🔹 Obtener media por ID
 export const obtenerMediaPorId = async (req, res) => {
@@ -174,3 +178,4 @@ export const eliminarMedia = async (req, res) => {
     res.status(500).json({ error: "Error al eliminar media" });
   }
 };
+
